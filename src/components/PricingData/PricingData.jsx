@@ -2,7 +2,9 @@ import React, { use } from "react";
 import PricingCard from "./PricingCard";
 
 const PricingData = ({ pricingPromise }) => {
-  const pricingData = use(pricingPromise);
+  const pricingDataRes = use(pricingPromise);
+  //axios er jonno ei line likhte hobe
+  const pricingData = pricingDataRes.data;
   console.log(pricingData);
   return (
     <div>
