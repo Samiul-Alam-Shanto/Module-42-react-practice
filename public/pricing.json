@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Basic Plan",
+    "price": "$9/month",
+    "description": "Perfect for individuals just getting started.",
+    "features": ["1 Website", "5 GB Storage", "Basic Support"],
+    "buttonText": "Get Started"
+  },
+  {
+    "id": 2,
+    "title": "Standard Plan",
+    "price": "$29/month",
+    "description": "Best for small teams and growing businesses.",
+    "features": [
+      "10 Websites",
+      "50 GB Storage",
+      "Priority Support",
+      "Free SSL Certificate"
+    ],
+    "buttonText": "Choose Standard"
+  },
+  {
+    "id": 3,
+    "title": "Premium Plan",
+    "price": "$99/month",
+    "description": "Ideal for large businesses and enterprises.",
+    "features": [
+      "Unlimited Websites",
+      "1 TB Storage",
+      "24/7 Dedicated Support",
+      "Advanced Security",
+      "Free Domain"
+    ],
+    "buttonText": "Go Premium"
+  }
+]

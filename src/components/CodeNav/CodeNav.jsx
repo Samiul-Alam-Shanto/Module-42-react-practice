@@ -31,7 +31,7 @@ const navbar = [
 
 const links = navbar.map((item) => {
   return (
-    <li>
+    <li key={item.id}>
       <a href={item.path}>{item.title}</a>
     </li>
   );
